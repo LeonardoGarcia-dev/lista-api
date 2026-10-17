@@ -1,0 +1,13 @@
+
+### Listar tarefas
+GET http://localhost:8080/tasks
+
+### Criar uma tarefa
+POST http://localhost:8080/tasks
+Content-Type: application/json
+
+{
+  "title": "Estudar Spring Boot",
+  "description": "Aprender a criar uma API REST",
+  "completed": false
+}
